@@ -1,0 +1,115 @@
+# ==============================================================================
+# ContinuityOS AI - Root .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Environment Variables & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+!.env.example
+
+# ------------------------------------------------------------------------------
+# Python & Virtual Environments
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# Node.js, Frontend & Build Outputs
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Frontend Build
+frontend/dist/
+frontend/dist-ssr/
+dist/
+build/
+*.local
+
+# ------------------------------------------------------------------------------
+# Database Files & SQLite
+# ------------------------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+continuityos.db
+**/continuityos.db
+
+# ------------------------------------------------------------------------------
+# Uploaded Documents, Generated Reports & Test Fixtures
+# ------------------------------------------------------------------------------
+backend/uploads/
+backend/generated_reports/
+backend/test_fixtures/
+uploads/
+generated_reports/
+
+# ------------------------------------------------------------------------------
+# Logs & Temporary Files
+# ------------------------------------------------------------------------------
+logs/
+*.log
+*.tmp
+*.temp
+
+# ------------------------------------------------------------------------------
+# OS & Editor Specific Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
